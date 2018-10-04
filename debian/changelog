@@ -1,3 +1,20 @@
+lava (2018.5.post1-3) unstable; urgency=medium
+
+  * Change build-dep to just python3, drop build-depend
+    on python3-all-dev.
+  * [INTL:pt_BR] Brazilian Portuguese debconf templates
+    translation (Closes: #903358)
+  * [INTL:es] Spanish translation of the debconf template lava-
+    server (Closes: #902913)
+  * [INTL: de] German translation of the debconf dialogue
+    (Closes: #905775)
+  * Update standards version
+  * Update homepage and VCS links to LAVA Software Community Project.
+  * Suggest python3-bandit for lava-dev
+  * Add suggests for black in lava-dev
+
+ -- Neil Williams <codehelp@debian.org>  Thu, 04 Oct 2018 13:03:22 +0100
+
 lava (2018.5.post1-2) unstable; urgency=medium
 
   * Fix missing dependency on python3-requests, found by piuparts
